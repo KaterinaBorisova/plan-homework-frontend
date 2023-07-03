@@ -1,0 +1,38 @@
+body {
+  background: url('https://cdn.pixabay.com/photo/2019/12/14/22/45/kitchen-4695948_1280.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: hsl(161, 95%, 15%)
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  background: #313133;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 20px 50px;
+  background-color: #024d3d;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+p {
+  max-width: 100%;
+  background: rgb(245, 245, 220);
+  margin-top: 20px;
+  width: 600px;
+  font-size: 20px;
+}
